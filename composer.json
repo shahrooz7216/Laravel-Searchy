@@ -1,15 +1,14 @@
 {
-    "name": "tom-lingham/searchy",
+    "name": "shahrooz7216/searchy",
     "description": "Laravel Searchy makes user driven searching easy with fuzzy search, basic string matching, Levenshtein Distance and more.",
     "keywords": ["laravel","search","fuzzy"],
     "license": "MIT",
     "authors": [
         {
-            "name": "Tom Lingham",
-            "email": "tjlingham@gmail.com"
+            "name": "shahrooz7216 for test laravel 8"
         }
     ],
-    "version":"4.2",
+    "version":"4.3",
     "require": {
         "php": "^5.5.9 || ^7.0 || ^8.0",
         "illuminate/support": "^5.1 || ^6.0 || ^7.0 || ^8.0"
@@ -20,12 +19,12 @@
     },
     "autoload": {
         "psr-4": {
-            "TomLingham\\Searchy\\": "src/"
+            "shahrooz7216\\Searchy\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TomLingham\\Tests\\Searchy\\": "tests/"
+            "shahrooz7216\\Tests\\Searchy\\": "tests/"
         }
     },
     "config": {
@@ -37,19 +36,13 @@
         },
         "laravel": {
             "providers": [
-                "TomLingham\\Searchy\\SearchyServiceProvider"
+                "shahrooz7216\\Searchy\\SearchyServiceProvider"
             ],
             "aliases": {
-                "Searchy": "TomLingham\\Searchy\\Facades\\Searchy"
+                "Searchy": "shahrooz7216\\Searchy\\Facades\\Searchy"
             }
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/shahrooz7216/Laravel-Searchy"
-        }
-    ]
+    "prefer-stable": true
 }
