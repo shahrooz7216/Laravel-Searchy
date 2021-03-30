@@ -1,11 +1,11 @@
 <?php
 
-namespace TomLingham\Tests\Searchy\Facades;
+namespace shahrooz7216\Tests\Searchy\Facades;
 
 use GrahamCampbell\TestBenchCore\FacadeTrait;
-use TomLingham\Searchy\Facades\Searchy;
-use TomLingham\Searchy\SearchBuilder;
-use TomLingham\Tests\Searchy\AbstractTestCase;
+use shahrooz7216\Searchy\Facades\Searchy;
+use shahrooz7216\Searchy\SearchBuilder;
+use shahrooz7216\Tests\Searchy\AbstractTestCase;
 
 /**
  * This is the searchy facade test class.

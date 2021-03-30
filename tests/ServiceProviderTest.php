@@ -1,9 +1,9 @@
 <?php
 
-namespace TomLingham\Tests\Searchy;
+namespace shahrooz7216\Tests\Searchy;
 
 use GrahamCampbell\TestBenchCore\ServiceProviderTrait;
-use TomLingham\Searchy\SearchBuilder;
+use shahrooz7216\Searchy\SearchBuilder;
 
 /**
  * This is the service provider test.

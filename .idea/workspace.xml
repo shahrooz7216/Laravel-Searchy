@@ -3,15 +3,43 @@
   <component name="ChangeListManager">
     <list default="true" id="5fd025d2-2740-4805-bc42-37a2f5103162" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/Laravel-Searchy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Laravel-Searchy.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/searchy.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/searchy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Facades/Searchy.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Facades/Searchy.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/MatcherInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/MatcherInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/SearchDriverInterface.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/SearchDriverInterface.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matchers/AcronymMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matchers/AcronymMatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matchers/AcronymUnicodeMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matchers/AcronymUnicodeMatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matchers/BaseMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matchers/BaseMatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matchers/ConsecutiveCharactersMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matchers/ConsecutiveCharactersMatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matchers/ConsecutiveCharactersUnicodeMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matchers/ConsecutiveCharactersUnicodeMatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matchers/ExactMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matchers/ExactMatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matchers/InStringMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matchers/InStringMatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matchers/LevenshteinMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matchers/LevenshteinMatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matchers/StartOfStringMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matchers/StartOfStringMatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matchers/StartOfWordsMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matchers/StartOfWordsMatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matchers/StudlyCaseMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matchers/StudlyCaseMatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matchers/StudlyCaseUnicodeMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matchers/StudlyCaseUnicodeMatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Matchers/TimesInStringMatcher.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Matchers/TimesInStringMatcher.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchDrivers/BaseSearchDriver.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchDrivers/BaseSearchDriver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchDrivers/FuzzySearchDriver.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchDrivers/FuzzySearchDriver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchDrivers/FuzzySearchUnicodeDriver.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchDrivers/FuzzySearchUnicodeDriver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchDrivers/LevenshteinSearchDriver.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchDrivers/LevenshteinSearchDriver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchDrivers/SimpleSearchDriver.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchDrivers/SimpleSearchDriver.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SearchyServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/SearchyServiceProvider.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/AbstractTestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/AbstractTestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Facades/SearchyTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Facades/SearchyTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/ServiceProviderTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/ServiceProviderTest.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
   </component>
@@ -129,6 +157,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1qSlVGK2m7DPTTcBZfJSWCoRbsr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -141,6 +170,12 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
+  <component name="RunManager">
+    <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner scope="XML" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -149,7 +184,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617080893840</updated>
-      <workItem from="1617080895028" duration="3241000" />
+      <workItem from="1617080895028" duration="3535000" />
+      <workItem from="1617085942691" duration="211000" />
     </task>
     <task id="LOCAL-00001" summary=" - forked for laravel 8 use">
       <created>1617082046378</created>
@@ -172,7 +208,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617083791360</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary=" - forked for laravel 8 use">
+      <created>1617084560796</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617084560796</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,17 +226,17 @@
     <option name="LAST_COMMIT_MESSAGE" value=" - forked for laravel 8 use" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1617083790768">
+    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1617084560254">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1617083790768" />
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1617083792769">
+    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1617084560254" />
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2" timestamp="1617084562537">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1617083792769" />
-    <state x="481" y="163" width="574" height="498" key="find.popup" timestamp="1617083666721">
+    <state x="361" y="148" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1617084562537" />
+    <state x="481" y="163" width="574" height="498" key="find.popup" timestamp="1617086138386">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="481" y="163" width="574" height="498" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1617083666721" />
+    <state x="481" y="163" width="574" height="498" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1617086138386" />
   </component>
 </project>

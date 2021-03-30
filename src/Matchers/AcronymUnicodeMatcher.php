@@ -1,6 +1,6 @@
 <?php
 
-namespace TomLingham\Searchy\Matchers;
+namespace shahrooz7216\Searchy\Matchers;
 
 /**
  * Matches strings for Acronym 'like' matches but does NOT return Studly Case Matches.

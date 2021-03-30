@@ -1,9 +1,9 @@
 <?php
 
-namespace TomLingham\Searchy\SearchDrivers;
+namespace shahrooz7216\Searchy\SearchDrivers;
 
 use Illuminate\Support\Facades\Schema;
-use TomLingham\Searchy\Interfaces\SearchDriverInterface;
+use shahrooz7216\Searchy\Interfaces\SearchDriverInterface;
 
 abstract class BaseSearchDriver implements SearchDriverInterface
 {

@@ -8,7 +8,7 @@
             "name": "shahrooz7216 for test laravel 8"
         }
     ],
-    "version":"4.3",
+    "version":"4.4",
     "require": {
         "php": "^5.5.9 || ^7.0 || ^8.0",
         "illuminate/support": "^5.1 || ^6.0 || ^7.0 || ^8.0"

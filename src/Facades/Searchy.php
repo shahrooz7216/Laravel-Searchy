@@ -1,6 +1,6 @@
 <?php
 
-namespace TomLingham\Searchy\Facades;
+namespace shahrooz7216\Searchy\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
