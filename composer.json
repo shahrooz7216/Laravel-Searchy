@@ -1,5 +1,5 @@
 {
-    "name": "tom-lingham/searchy",
+    "name": "shahrooz7216/searchy",
     "description": "Laravel Searchy makes user driven searching easy with fuzzy search, basic string matching, Levenshtein Distance and more.",
     "keywords": ["laravel","search","fuzzy"],
     "license": "MIT",
@@ -9,7 +9,7 @@
             "email": "tjlingham@gmail.com"
         }
     ],
-    "version":"4.0",
+    "version":"4.1",
     "require": {
         "php": "^5.5.9 || ^7.0 || ^8.0",
         "illuminate/support": "^5.1 || ^6.0 || ^7.0 || ^8.0"
